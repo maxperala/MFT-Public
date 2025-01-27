@@ -29,7 +29,7 @@ The purpose of the app is to provide a platform for people to learn about histor
 
 ### Structure
 
-This repository is the public front for the project. The two repos containing the actual code are submodules of this repo. These repositories are private, and I will need to add everyone interested as a contributor to grant access to the repos. I would have liked to share the code through a link that grants access in my CV, but unfortunately there is no easy way to do this in GitHub. I plan to release the app in app stores this spring, which is why the repos are private. They also contain some **public** API keys which are, in theory, safe to expose, but I like to keep it like this for peace of mind.
+This repository is the public front for the project. The two repos containing the actual code are submodules of this repo. These repositories are private, and I will need to add everyone interested as a contributor to grant access to the repos. I would have liked to share the code through a link that grants access in my CV, but unfortunately there is no easy way to do this in GitHub. I plan to release the app in app stores this spring, which is why the repos are private.
 #### How to gain access?
 > To gain access, send me the email address associated with your GitHub account.
 > You can do this via email, for example. My email address is max.perala@hotmail.fi.
