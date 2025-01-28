@@ -3,6 +3,10 @@
 
 ![screenshots](screenshots.jpg)
 
+>*28.1. status update*
+>The app is now available for public beta testing through Apple TestFlight!
+>You can opt-in using [this link](https://testflight.apple.com/join/Q88cuyS9)
+
 ## Description
 
 ### What is it?
@@ -49,11 +53,18 @@ This repository is the public front for the project. The two repos containing th
 
 ## Testing the app
 
-The easiest way to test the app in its current development stage is to simply **download the latest .APK release** from this repository, and run it in an Android simulator or on a real device. It works using a backend I have deployed for testing purposes.
+### Android
+
+The easiest way to test the app in its current development stage is to simply **download the latest .APK release** from this repository, and run it in an Android simulator or on a real device. It works using a backend I have deployed.
 
 **Note that the app requires for you to physically be in Tampere and visit locations on the map, so if you are located in a different city or don't wish to walk you will have to simulate your location somehow!**
 
 The location simulator in the Android studio emulator is easy to use and works well. You can also set a mock-location app in the settings of a physical device if you have developer mode enabled.
+
+### iOS
+
+The latest beta-release of the app is available through **Apple TestFlight.** You can opt-in as a beta tester using [this link](https://testflight.apple.com/join/Q88cuyS9). If you need an easy way to simulate your location on a real iOS device, you should look into [GeoPort](https://github.com/davesc63/GeoPort).
+### General
 
 > I recommend using Android API version 35 on the emulator, as this is the one used for development. If you were to build the iOS version I recommend iOS 17 and a physical device,
 > since expo-location does not currently pair well with the Xcode simulator.
@@ -61,6 +72,7 @@ The location simulator in the Android studio emulator is easy to use and works w
 You can also build the app yourself for either Android or iOS using native tools or EAS, if you have requested access to the actual frontend repository contained as a submodule in this repo.
 
 **The app is not compatible with Expo Go due to extensive use of native modules!**
+
 
 ## Technology
 
