@@ -3,9 +3,8 @@
 
 ![screenshots](screenshots.jpg)
 
->*28.1. status update*
->The app is now available for public beta testing through Apple TestFlight!
->You can opt-in using [this link](https://testflight.apple.com/join/Q88cuyS9)
+>*31.1. status update*
+>The app has been released on the Apple [App Store](https://apps.apple.com/us/app/memories-from-tampere/id6741048584) 🎉
 
 ## Description
 
@@ -53,21 +52,23 @@ This repository is the public front for the project. The two repos containing th
 
 ## Testing the app
 
+### iOS
+
+The app is available on the **App Store**! You can download it by searching for it in the store, or by following this [link](https://apps.apple.com/us/app/memories-from-tampere/id6741048584).
+
 ### Android
 
-The easiest way to test the app in its current development stage is to simply **download the latest .APK release** from this repository, and run it in an Android simulator or on a real device. It works using a backend I have deployed.
+The easiest way to test the app in its current development stage is to simply **download the latest .APK release** from this repository, and run it in an Android simulator or on a real device.
+
+### General
+
+> I recommend using Android API version 35 on the emulator, as this is the one used for development. iPhone version is already released and should work well on all supported devices and iOS versions.
 
 **Note that the app requires for you to physically be in Tampere and visit locations on the map, so if you are located in a different city or don't wish to walk you will have to simulate your location somehow!**
 
 The location simulator in the Android studio emulator is easy to use and works well. You can also set a mock-location app in the settings of a physical device if you have developer mode enabled.
 
-### iOS
-
-The latest beta-release of the app is available through **Apple TestFlight.** You can opt-in as a beta tester using [this link](https://testflight.apple.com/join/Q88cuyS9). If you need an easy way to simulate your location on a real iOS device, you should look into [GeoPort](https://github.com/davesc63/GeoPort).
-### General
-
-> I recommend using Android API version 35 on the emulator, as this is the one used for development. If you were to build the iOS version I recommend iOS 17 and a physical device,
-> since expo-location does not currently pair well with the Xcode simulator.
+If you need an easy way to simulate your location on a real iOS device, you should look into [GeoPort](https://github.com/davesc63/GeoPort).
 
 You can also build the app yourself for either Android or iOS using native tools or EAS, if you have requested access to the actual frontend repository contained as a submodule in this repo.
 
@@ -97,8 +98,6 @@ You can also build the app yourself for either Android or iOS using native tools
 The app is getting close to release and all the main features are implemented. Even then, it is far from finished and there is still lots to do.
 
 * First on the agenda is **testing**. I have neglected this part big time. The reason for this is that I really wanted to provide a working prototype with **all features** in time for recruitment season this spring and doing **TTD** would have slowed me down significantly. In addition, the backend does not collect any **sensitive user data**, so bugs, while annoying, can't be that dangerous. This **does not mean** that I don't understand the importance of unit- or end-to-end-testing, and I will start working on implementing tests as soon as possible.
-
-* Gather the actual photographs and content that will be included in the first release version. I have focused on making the app functional before diving into this too deeply. The testing backend includes some example content.
 
 * The backend has some obvious inefficencies that I know of. For example, it makes a lot more database calls than necessary in some routes. I will fix this by completely refactoring how database actions are handled.
 
