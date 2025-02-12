@@ -5,6 +5,8 @@
 
 >*31.1. status update*
 >The app has been released on the Apple [App Store](https://apps.apple.com/us/app/memories-from-tampere/id6741048584) 🎉
+>*12.2 status update*
+>The frontend and backend repositories are now public
 
 ## Description
 
@@ -32,11 +34,7 @@ The purpose of the app is to provide a platform for people to learn about histor
 
 ### Structure
 
-This repository is the public front for the project. The two repos containing the actual code are submodules of this repo. These repositories are private, and I will need to add everyone interested as a contributor to grant access to the repos. I would have liked to share the code through a link that grants access in my CV, but unfortunately there is no easy way to do this in GitHub. I plan to release the app in app stores this spring, which is why the repos are private.
-#### How to gain access?
-> To gain access, send me the email address associated with your GitHub account.
-> You can do this via email, for example. My email address is max.perala@hotmail.fi.
-
+This repository is the public front for the project. The two repos containing the actual code are submodules of this repo. Each repo has it's own README with install instructions.
 
 ## Features
 
@@ -70,7 +68,7 @@ The location simulator in the Android studio emulator is easy to use and works w
 
 If you need an easy way to simulate your location on a real iOS device, you should look into [GeoPort](https://github.com/davesc63/GeoPort).
 
-You can also build the app yourself for either Android or iOS using native tools or EAS, if you have requested access to the actual frontend repository contained as a submodule in this repo.
+You can also build the app yourself for either Android or iOS using native tools or EAS, more about this inside the frontend repo.
 
 **The app is not compatible with Expo Go due to extensive use of native modules!**
 
@@ -91,17 +89,15 @@ You can also build the app yourself for either Android or iOS using native tools
 * **Language and runtime:** **Node.js** using **TypeScript** 
 * **API:** Constructed using **[express](https://github.com/expressjs/express)** 
 * **Database:** **MongoDB** using **[mongoose](https://github.com/Automattic/mongoose)** driver for Node
-* **Deployment:** The backend is currently deployed on **[Fly.io](https://fly.io/)** using **Docker** containers
+* **Deployment:** The backend is currently deployed on **[Render](render.com)** using **Docker**
 
 ## TODO
 
 The app is getting close to release and all the main features are implemented. Even then, it is far from finished and there is still lots to do.
 
-* First on the agenda is **testing**. I have neglected this part big time. The reason for this is that I really wanted to provide a working prototype with **all features** in time for recruitment season this spring and doing **TTD** would have slowed me down significantly. In addition, the backend does not collect any **sensitive user data**, so bugs, while annoying, can't be that dangerous. This **does not mean** that I don't understand the importance of unit- or end-to-end-testing, and I will start working on implementing tests as soon as possible.
+* Implement e2e-testing.
 
 * The backend has some obvious inefficencies that I know of. For example, it makes a lot more database calls than necessary in some routes. I will fix this by completely refactoring how database actions are handled.
-
-* The frontend file structure needs some work and some components can be refactored to reduce the need for so many total components.
 
 * I want to implement a feature where each location can have more than one picture, in a way where there is the "main picture" and depending on the location a few "sub pictures". I will implement this for the **first update** of the released app.
 
