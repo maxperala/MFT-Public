@@ -5,6 +5,7 @@
 
 >*31.1. status update*
 >The app has been released on the Apple [App Store](https://apps.apple.com/us/app/memories-from-tampere/id6741048584) 🎉
+
 >*12.2 status update*
 >The frontend and backend repositories are now public
 
@@ -23,7 +24,7 @@ The purpose of the app is to provide a platform for people to learn about histor
 - Qualify to be used as a 10 credits course project for [Full Stack Open](https://fullstackopen.com/)
 - Get my own app released on the App Store and Google Play
 
-**[DEMO VIDEO OF THE APP](https://vimeo.com/1044428510)**
+**[DEMO VIDEO OF THE APP](https://vimeo.com/1044428510)** **The video is starting to be a bit outdated, I will make a new one soon :)**
 
 ### Learning objectives
 
