@@ -24,7 +24,7 @@ The purpose of the app is to provide a platform for people to learn about histor
 - Qualify to be used as a 10 credits course project for [Full Stack Open](https://fullstackopen.com/)
 - Get my own app released on the App Store and Google Play
 
-**[DEMO VIDEO OF THE APP](https://vimeo.com/1138499612?share=copy&fl=sv&fe=ci)
+**[DEMO VIDEO OF THE APP](https://vimeo.com/1138499612?share=copy&fl=sv&fe=ci)**
 
 ### Learning objectives
 
